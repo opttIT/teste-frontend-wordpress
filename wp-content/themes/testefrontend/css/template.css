@@ -1,0 +1,26 @@
+.main-menu ul li{
+    display: inline;
+}
+
+.menu{
+    background-color: #061B3A;
+    padding: 15px 0;
+}
+
+.menu a{
+    color: #fff;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.services{
+    display: inline;
+}
+
+.services-title{
+    padding-top:5px;
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -15,6 +15,31 @@ h2 {
     margin: 5px 0px 5px 12px;
 }
 
+.siteIdentity{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 16px;
+    z-index: 2;
+    margin-top: 70px;
+}
+
+.siteIdentity h1{
+color: #fff;
+margin-top: 85px;
+text-align: center;
+}
+
+.siteIdentity h2{
+    text-align: center;
+    margin: -10px 0px 5px 12px;
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.85;
+    }
+
 .main-menu ul li{
     display: inline;
 }
@@ -33,10 +58,28 @@ h2 {
 
 .img-fluid {
     width: 100%;
+    
+}
+
+.header-image{
+    position: relative;
+}
+
+.color-overlay {
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.58;
 }
 
 .services{
     display: inline;
+}
+
+.services .container{
+    margin-bottom: 50px;
 }
 
 .services p{
@@ -113,7 +156,25 @@ input{
 
 footer{ background-color:#303C40; padding: 15px 0; color: #fcfae1; }
 
-.footer-menu ul{ list-style: none; padding: 0; margin: 0; font-size: 20px; }
+footer .logo{
+    padding: 50px 0px 50px 0px;
+}
+
+footer .logo img{
+    height: 64px;
+}
+
+footer .menu{
+    background-color: #303C40; 
+}
+
+.copyright{
+    margin: 30px 0px 10px 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-menu ul{ list-style: none; padding: 0; margin: 0; font-size: 11px; }
 .footer-menu ul li{ display: inline;  margin: 0 15px 0 0;}
 .footer-menu ul li:last-child{ margin: 0; }
 .footer-menu ul li a{ color: #fcfae1;  text-decoration: none;}

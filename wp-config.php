@@ -77,6 +77,8 @@ $table_prefix = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
+define( 'FS_METHOD', 'direct' );
+define('ALLOW_UNFILTERED_UPLOADS', true);
 define( 'WP_DEBUG', false );
 
 /* That's all, stop editing! Happy publishing. */

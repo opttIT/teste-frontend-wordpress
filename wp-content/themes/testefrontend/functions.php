@@ -28,7 +28,7 @@ $args = array(
 add_theme_support( 'custom-header', $args );
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'title-tag');
-add_theme_support( 'custom-logo', array( 'height' => 40.33, 'width' => 93.27 ) );
+add_theme_support( 'custom-logo');
 }
 add_action( 'after_setup_theme', 'wptestefrontend_config', 0 );
 

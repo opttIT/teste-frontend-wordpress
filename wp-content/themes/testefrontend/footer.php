@@ -1,4 +1,8 @@
 <footer>
+<section class="logo col-md-2 col-12 text-center">
+                        <?php the_custom_logo(); ?>
+</section>
+
 <div class="container">
                 <div class="row">
                     <div class="copyright col-sm-7 col-4">

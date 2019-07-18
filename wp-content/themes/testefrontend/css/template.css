@@ -1,14 +1,34 @@
+* {font-family: "Montserrat", "Regular"}
+
+h1 { 
+    font-size:28px; 
+    font-family: "Montserrat", "Regular";
+    margin: 64.5px 0px 40px 0px;
+    color: #2D2D2D;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: left;
+    margin: 5px 0px 5px 12px;
+}
+
 .main-menu ul li{
     display: inline;
 }
 
 .menu{
     background-color: #061B3A;
-    padding: 15px 0;
+    padding: 5px 0;
 }
 
 .menu a{
     color: #fff;
+    font-size: 13px;
+    margin: 10px 20px 5px 20px;
+    text-transform: uppercase;
 }
 
 .img-fluid {
@@ -19,8 +39,82 @@
     display: inline;
 }
 
+.services p{
+    text-align: left;
+    margin-left: 12px;
+    margin-right: 15px;
+    font-size: 14px;
+    color:#2D2D2D;
+    text-transform: capitalize;
+}
+
 .services-title{
     padding-top:5px;
     text-align: center;
     text-transform: uppercase;
+    font-size: 10px;
+
 }
+
+.middle-post h1{
+    padding: 0px 200px 0px 20px;
+}
+
+.middle-post p{
+    padding: 0px 200px 0px 20px;
+}
+
+.middle-area{
+    background-color: #F8F8F8;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #B17E3B;
+    border-color: #B17E3B;
+    border-radius: 24px;
+    padding: 12px 60px 12px 60px;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-image: linear-gradient(271deg,#B17E3B 0%,#8b612b 100%);
+    background-color: #8b612b;
+    border-color: #B17E3B;
+}
+
+.input-group-btn .btn-primary {
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.subscribe h1{
+    margin: 80.5px 0px 40px 0px;
+    text-align: center;
+}
+
+.input-group{
+    padding: 0px 200px 90px 300px;
+}
+
+.form-control{
+    border-radius: 25px !important;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #F8F8F8;
+}
+
+input{
+    padding-left: 40px !important;
+}
+
+footer{ background-color:#303C40; padding: 15px 0; color: #fcfae1; }
+
+.footer-menu ul{ list-style: none; padding: 0; margin: 0; font-size: 20px; }
+.footer-menu ul li{ display: inline;  margin: 0 15px 0 0;}
+.footer-menu ul li:last-child{ margin: 0; }
+.footer-menu ul li a{ color: #fcfae1;  text-decoration: none;}
+.footer-menu ul  li.current-menu-item a{ color:#e58888; }

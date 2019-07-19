@@ -17,17 +17,22 @@
     </div>
     <div class="container">
         <div class="row">
-        <div class="social-network col-md-12 text-center">
-        <img scr="http://localhost/teste-frontend/wp-content/uploads/2019/07/facebook.svg"><a href="#" class="fa fa-facebook"></a>
-            </div>
-            </div>
-    <div class="container">
-        <div class="row">
-            <div class="copyright col-md-12">
-                <p><?php echo get_theme_mod('set_copyright'); ?></p>
+            <div class="social-network col-md-12 text-center">
+                <?php
+
+                if (is_active_sidebar('social-media')) {
+                    dynamic_sidebar('social-media');
+                }
+
+                ?>
             </div>
         </div>
-    </div>
+        </div>
+        <section class="scopyright">
+                <div class="copyright col-md-12">
+                    <p><?php echo get_theme_mod('set_copyright'); ?></p>
+                </div>
+        </section>
 </footer>
 <?php wp_footer(); ?>
 </body>

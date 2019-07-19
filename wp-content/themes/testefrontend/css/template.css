@@ -61,6 +61,14 @@ text-align: center;
     
 }
 
+.menu .col-md-2 {
+    margin-top: 8px;
+}
+    
+.menu .col-md-10{
+    padding-top: 10px;  
+}
+
 .header-image{
     position: relative;
 }
@@ -160,13 +168,43 @@ footer .logo{
     padding: 50px 0px 50px 0px;
 }
 
-footer .logo img{
-    height: 64px;
+.svg-replaced-1{
+    height: 64px!important;
+    width: 140px;
 }
+
+.scopyright{
+    border-top: 1px solid #596366;
+    margin-top: 45px;
+}
+
 
 footer .menu{
     background-color: #303C40; 
 }
+
+.social-network{
+    margin-top: 35px;
+}
+
+ #svg-replaced-3, #svg-replaced-4 {
+    background-color: #596366;
+    height: 35px;
+    width: 35px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+#svg-replaced-2{
+    background-color: #596366;
+    height: 35px;
+    width: 35px;
+    padding: 5px 14px 5px 14px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+
 
 .copyright{
     margin: 30px 0px 10px 0px;

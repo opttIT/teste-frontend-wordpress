@@ -1,16 +1,15 @@
 <?php get_header(); ?>
 <section>
 	<div class="header-image">
-	<div class="color-overlay"></div><img class="img-fluid" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
-	<div class="siteIdentity"><?php
-								if (display_header_text() == true) {
-									echo '<h1>' . get_bloginfo('name') . '</h1>';
-									echo '<h2>' . get_bloginfo('description') . '</h2>';
-								} else {
-									//do something
-								}
-								?>
-	</div></div>
+		<div class="color-overlay"></div><img class="img-fluid" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+		<div class="siteIdentity"><?php
+									if (display_header_text() == true) {
+										echo '<h1>' . get_bloginfo('name') . '</h1>';
+										echo '<h2>' . get_bloginfo('description') . '</h2>';
+									}
+									?>
+		</div>
+	</div>
 </section>
 <div class="content-area">
 	<main>
@@ -41,8 +40,8 @@
 		<section class="middle-area">
 			<div class="container">
 				<div class="row">
-					<div class="image col-md-6">
-						<?php get_template_part('template-parts/content-image'); ?>
+					<div class="content-post col-md-6">
+						<?php get_template_part('template-parts/content-post'); ?>
 						<button type="button" class="btn btn-primary">BOOK NOW</button></div>
 					<div class="image col-md-6">
 						<?php get_template_part('template-parts/content-middle-image'); ?> </div>
